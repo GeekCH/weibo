@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3756A67A1D588EFE00B3B5DB /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3756A6791D588EFE00B3B5DB /* Person.m */; };
 		AD9D8C681CC236C2003B178C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9D8C671CC236C2003B178C /* main.m */; };
 		AD9D8C6B1CC236C2003B178C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9D8C6A1CC236C2003B178C /* AppDelegate.m */; };
 		AD9D8C6E1CC236C2003B178C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9D8C6D1CC236C2003B178C /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3756A6781D588EFE00B3B5DB /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3756A6791D588EFE00B3B5DB /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		AD9D8C621CC236C2003B178C /* weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9D8C661CC236C2003B178C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD9D8C671CC236C2003B178C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				AD9D8C721CC236C2003B178C /* Images.xcassets */,
 				AD9D8C741CC236C2003B178C /* LaunchScreen.xib */,
 				AD9D8C651CC236C2003B178C /* Supporting Files */,
+				3756A6781D588EFE00B3B5DB /* Person.h */,
+				3756A6791D588EFE00B3B5DB /* Person.m */,
 			);
 			path = weibo;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				AD9D8C6E1CC236C2003B178C /* ViewController.m in Sources */,
 				AD9D8C6B1CC236C2003B178C /* AppDelegate.m in Sources */,
+				3756A67A1D588EFE00B3B5DB /* Person.m in Sources */,
 				AD9D8C681CC236C2003B178C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				AD9D8C871CC236C2003B178C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD9D8C881CC236C2003B178C /* Build configuration list for PBXNativeTarget "weiboTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				AD9D8C8A1CC236C2003B178C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
